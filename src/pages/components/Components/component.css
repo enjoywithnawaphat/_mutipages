@@ -36,7 +36,7 @@
 
 .background-container {
   margin: 1rem;
-  background-image: url("/public/background.jpg");
+  /* background-image: url("/public/background.jpg"); */
   padding: 1rem;
 }
 
