@@ -1,0 +1,114 @@
+
+.calculator-container{
+  width: 25rem;
+  height: 42rem;
+  background-color: gray;
+  border-radius: 50px;
+  margin: auto;
+  border: none;
+}
+
+.show-box{
+  border: 1px solid black;
+  width: 25rem;
+  height: 10rem;
+  background-color: rgb(63, 63, 63);
+  position: relative;
+  border: none;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 50px;
+}
+
+#showbox{
+  font-size: 80px;
+  position: absolute;
+  bottom: 0px;
+  width: 95%;
+  overflow: hidden;
+  text-align: right;
+  border: none;
+  background-color: none;
+  left: 10px;
+}
+
+.calculator-box{
+  /* padding: 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  border: none; */
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 1rem; */
+  margin: 1rem;
+}
+
+
+.box{
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 40%;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button.box:hover{
+  background-color: rgb(39, 39, 255);
+}
+
+
+#calbutton{
+  width: 80px;
+  height: 180px;
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  right: 785px;
+  font-size: 50px;
+}
+
+#delete:hover{
+  color: orange;
+  background-color:purple;
+}
+
+#add:hover{
+  color: aqua;
+  background-color: red;
+}
+
+#div:hover{
+  color: aqua;
+  background-color: red;
+}
+
+#mul:hover{
+  color: aqua;
+  background-color: red;
+}
+
+#sub:hover{
+  color: aqua;
+  background-color: red;
+}
+
+#sub:hover{
+  color: aqua;
+  background-color: red;
+}
+
+#calbutton:hover{
+  color: yellow;
+  background-color: green;
+}
+
+#delone:active {
+  color: black;
+  background-color: orange;
+}
