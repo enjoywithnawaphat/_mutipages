@@ -12,8 +12,8 @@
     border: 5px solid black;
     width: 500px;
     border-radius: 5px;
-    background-image: url("/public/animationbg.png");
-    
+    /* background-image: url("/public/animationbg.png"); */
+    background-image: url("/public/background.jpg");
     background-size: 100%;
     background-position: center;
     /* variable */
